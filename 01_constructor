@@ -16,5 +16,10 @@ Student_2 = Student("Zayan", 102)  # Create another object of the Student class
 # Print the attributes of the Student objects
 print("Student 1 Name:", Student_1.name)
 print("Student 1 ID:", Student_1.id)
-print("Student 2 Name:", Student_2.name)
+
+# change the attribute value
+Student_1.id = "008"
+print("\nUpdated Student 1 ID:", Student_1.id)
+
+print("\nStudent 2 Name:", Student_2.name)
 print("Student 2 ID:", Student_2.id)    
