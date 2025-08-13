@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+# -*- coding: utf-8 -*-
+# This file is part of the Python Learning of Class Object Constructor Attribute and method.
+
+class Student:
+    def __init__(self,name,id):
+        self.name = name
+        self.id = id
+
+
+# Create an instance of the Student class
+Student_1 = Student("Aadil", 101)  # Create an object of the Student class
+Student_2 = Student("Zayan", 102)  # Create another object of the Student class
+
+# Print the attributes of the Student objects
+print("Student 1 Name:", Student_1.name)
+print("Student 1 ID:", Student_1.id)
+print("Student 2 Name:", Student_2.name)
+print("Student 2 ID:", Student_2.id)    
